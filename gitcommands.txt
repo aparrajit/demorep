@@ -1,0 +1,26 @@
+create git remote
+
+git init
+
+git config --global username = ""
+git config --global userEmail = "" 
+
+git remote add origin "url"
+git add . 
+git commit -m ""
+git status 
+git log
+
+git push -u origin master
+
+git merge<branchname>
+
+git checkout -b <branchname>
+git checkout <branchname>
+
+git clone "url" folder name -b branch 
+
+git pull 
+git fetch(merging) 
+
+git remove origin 
